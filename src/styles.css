@@ -1,0 +1,98 @@
+@import url("https://fonts.google.com/specimen/Overpass");
+
+:root {
+  --White: hsl(0, 0%, 100%);
+  --LightGrey: hsl(217, 12%, 63%);
+  --MediumGrey: hsl(216, 12%, 54%);
+  --DarkBlue2: hsl(214, 5%, 26%);
+  --DarkBlue: hsl(213, 19%, 18%);
+  --VeryDarkBlue: hsl(216, 12%, 8%);
+  --DarkOrange: hsl(25, 97%, 53%);
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Overpass;
+  background-color: var(--VeryDarkBlue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rating-card {
+  box-sizing: border-box;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 5%;
+  width: 350px;
+  height: 350px;
+  background: linear-gradient(to top, hsl(216, 12%, 13%), hsl(213, 19%, 19%));
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.rating-card-icon {
+  margin: 0;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: var(--DarkBlue);
+  padding: 10px;
+}
+.rating-card-title {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+.rating-card-content {
+  margin: 0;
+  padding: 0;
+  color: var(--LightGrey);
+}
+.rating-card-rating-numbers {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+.rating-card-rating-number {
+  margin: 0;
+  padding: 0;
+  border-radius: 50%;
+  background-color: var(--DarkBlue);
+  padding: 10px 15px;
+  font-weight: 700;
+  color: var(--LightGrey);
+  font-size: 1.2em;
+  cursor: pointer;
+}
+.rating-card-rating-number:hover {
+  background-color: var(--DarkOrange);
+  color: white;
+}
+
+.active {
+  background-color: var(--DarkBlue2);
+}
+.button {
+  padding: 10px;
+  border-radius: 20px;
+  border: 0;
+  font-weight: 700;
+  background-color: var(--DarkOrange);
+  color: white;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: white;
+  color: var(--DarkOrange);
+}
+.thank-you {
+  display: inline;
+  color: var(--DarkOrange);
+  padding: 5px 15px;
+  border-radius: 20px;
+  background-color: var(--DarkBlue);
+}
