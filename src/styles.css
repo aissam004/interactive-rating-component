@@ -1,4 +1,6 @@
-@import url("https://fonts.google.com/specimen/Overpass");
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass');
+
 
 :root {
   --White: hsl(0, 0%, 100%);
@@ -15,7 +17,8 @@ body {
 }
 body {
   margin: 0;
-  font-family: Overpass;
+  font-family: 'Overpass';
+  font-size: 12px;
   background-color: var(--VeryDarkBlue);
   display: flex;
   justify-content: center;

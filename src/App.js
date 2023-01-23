@@ -6,9 +6,9 @@ const numbers = [1, 2, 3, 4, 5];
 
 export default function App() {
   return (
-    <div>
+    <main role="main">
       <Card listRating={numbers}/>
-    </div>
+    </main>
   );
 }
 
