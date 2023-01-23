@@ -6,7 +6,7 @@ const numbers = [1, 2, 3, 4, 5];
 
 export default function App() {
   return (
-    <main role="main">
+    <main>
       <Card listRating={numbers}/>
     </main>
   );
